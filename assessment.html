@@ -93,8 +93,47 @@
 				</ul>		
 		</ul>
 	<h2>FORM</h2>
-		<form>
-
+		<form action="google.com">
+			<div id="text">
+				<label for="firstName">First:</label>
+				<input type="text" id="firstName" name="firstName">
+				<label for="lastName">Last:</label>
+				<input type="text" id="lastName" name="lastName"><br>
+			</div>
+			<div id="dropdown">
+				<label for=favoriteSport>Favorite Sport:</label><br>
+				<select id="favoriteSport" name="favoriteSport">
+					<option value="baseball">Baseball</option>
+					<option value="basketball">Basketball</option>
+					<option value="football">Football</option>
+					<option value="hockey">Hockey</option>
+					<option value="soccer">Soccer</option><br>	
+				</select>
+			</div>
+			<div id="checkboxes">
+				<label for="sportInvolvement">I have:</label>
+				<input type="checkbox" id="attended" name="attended">
+				<label for="attended">Attended</label>
+				<input type="checkbox" id="played" name="played">
+				<label for="played">Played</label>
+				<input type="checkbox" id="coached" name="coached">
+				<label for="coached">Coached</label>
+				<input type="checkbox" id="betOn" name="betOn">
+				<label for="betOn">Bet On</label><br>
+				<label for="sportInvolvement">this sport.</label><br>										
+			</div>
+			<div id="radio">
+				<label for="levelPreference">For this sport I prefer the:</label>
+				<input type="radio" id="levelPreference1" name="levelPreference" value="amateur">
+				<label for="levelPreference1">Amateur</label>
+				<input type="radio" id="levelPreference2" name="levelPreference" value="college">
+				<label for="levelPreference2">College</label>
+				<input type="radio" id="levelPreference3" name="levelPreference" value="professional">
+				<label for="levelPreference3">Professional</label><br>
+			</div>
+			<div id="submit">
+				<input type="submit" name="submit" value="Submit Query">
+			</div>
 		</form>
 </body>
 </html>
